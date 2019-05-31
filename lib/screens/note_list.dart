@@ -22,6 +22,7 @@ class _NoteListState extends State<NoteList> {
           debugPrint('FAB clicked');
           navigateToDetail('Add Note');
         },
+        backgroundColor: Colors.deepPurple,
         tooltip: 'Add Note',
         child: Icon(Icons.add),
         ),
