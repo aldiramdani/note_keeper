@@ -14,7 +14,6 @@ class Note{
   String get tittle => _tittle;
   String get description => _description;
   int get priority => _priority;
-
   String get date => _date;
 
   set tittle(String newTittle){
